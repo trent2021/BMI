@@ -12,10 +12,10 @@ public class Main {
         keyboard = new Scanner(System.in);
 
         System.out.println("What is your height? (Only feet)");
-        feet = keyboard.nextLine();
+        feet = keyboard.nextInt();
 
         System.out.println("What is your height? (Only inches)");
-        inches = keyboard.nextLine();
+        inches = keyboard.nextInt();
 
 
         System.out.println(feet);
