@@ -17,10 +17,10 @@ public class Main {
         System.out.println("What is your height? (Only inches)");
         inches = keyboard.nextInt();
 
+        inches = inches + (feet * 12);
 
-        System.out.println(feet);
-        System.out.println(inches);
-        System.out.println(feet*inches);
+
+
 
 
 
